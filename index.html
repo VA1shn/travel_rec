@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <title>TravelBloom</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="https://png.pngtree.com/png-clipart/20220119/ourmid/pngtree-black-cartoon-aircraft-logo-element-png-image_4244385.png" alt="TravelBloom Logo">
+            <span>TravelBloom</span>
+        </div>
+        <ul>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="aboutus.html" id="about">About Us</a></li>
+            <li><a href="contactus.html" id="contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+        <button onclick="search()">Search</button>
+        <button onclick="clearSearch()">Clear</button>
+    </div>
+
+
+    <div class="homepage">
+        
+        <div class="background-image"></div>
+
+        
+        <div class="introduction">
+            <h1>Welcome to TravelBloom</h1>
+            <p>Your go-to platform for discovering new and exciting destinations.</p>
+        </div>
+
+        
+        <div class="social-media-icons">
+            <a href="#" target="_blank" class="icon"><img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="Facebook"></a>
+            <a href="#" target="_blank" class="icon"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.png" alt="Twitter"></a>
+            <a href="#" target="_blank" class="icon"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png" alt="Instagram"></a>
+        </div>
+    </div>
+
+   
+
+
+<div id="recommendationsContainer"></div>
+
+<button id="clearButton">Clear</button>
+
+
+   
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
